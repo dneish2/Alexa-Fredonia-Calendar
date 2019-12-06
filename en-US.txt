@@ -1,0 +1,240 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fredonia assistant scheduler",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "When is the fall break",
+                        "Whats going on around campus"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getDeadlines",
+                    "slots": [
+                        {
+                            "name": "deadlines",
+                            "type": "deadlines"
+                        }
+                    ],
+                    "samples": [
+                        "when are the {deadlines}",
+                        "when {deadlines}",
+                        "when is the {deadlines} ",
+                        "when are {deadlines} available to students",
+                        "when is {deadlines}"
+                    ]
+                },
+                {
+                    "name": "GetRemoteDataIntent",
+                    "slots": [
+                        {
+                            "name": "events",
+                            "type": "events"
+                        }
+                    ],
+                    "samples": [
+                        "What events are happening",
+                        "Whats going on today",
+                        "What {events} are happening now",
+                        "What events are happening now",
+                        "What events are going on today",
+                        "What {events} are going on today"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "deadlines",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fall break"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final day to apply for graduation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final grades available"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final exam week"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "last day of classes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final day to withdraw from university"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "academic advising begins"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "graduate registration"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final day to drop courses"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "final day to add courses"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "residence halls open"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "orientation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first day of classes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "midterm grades"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "events",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Student Development And Involvement"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Endeavors"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Social Activities"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Activities"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Student Life Events"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Campus Life Events"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Campus Events"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "events"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Spectrum Events"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
